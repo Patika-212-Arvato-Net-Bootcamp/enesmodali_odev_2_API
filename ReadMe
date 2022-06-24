@@ -1,0 +1,21 @@
+API Project
+
+Bogus adında isim,soyisim,adres,meslek bilgileri vb. özelliklerin olduğu bir kütüphane kullandım. Bu kütüphane aracılığı ile hazır kullanıcıları istediğim sayıda
+projeye ekledim.
+
+Admin ve Bootcamp Katılımcıları üzerinden gerçekleştirilebilen işlemler : 
+  
+
+AdminController ile Postman üzerinden Kullanıcı ekleme, Kullanıcı silme , Kullanıcı düzenleme ve katılan tüm kullanıcıları listeleme yapılabilmektedir.
+
+ÖR: ../api/Admin/5   ----> Url girişi yapıldığı vakit id numarası 5 olan kullanıcı bilgileri postman ile görülmektedir.
+
+Aynı işlemler Silme ve Listeleme işlemleri için de geçerli olacaktır.
+
+Bootcamp katılımcıları ise : 
+
+Login işlemi,Listeleme işlemi ve sadece katılımcıların meslek gruplarını görebilme işlemlerini gerçekleştirebilmektedir.
+
+ÖR: ../api/bootcamplist denildiği vakit tüm katılımcılar görülebilmektedir.
+
+Not: Admin ve Bootcamp katılımcıları ortak olarak tüm katılım sağlayanları görebilmektedir.
